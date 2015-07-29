@@ -3,7 +3,7 @@
 REM Variables.
 set tesseractexe="C:\PortableApps\tesseract-ocr\tesseract.exe"
 set input=%*
-set outputdirectory="C:\Users\YOURNAME\Desktop\"
+set outputdirectory="%UserProfile%\Desktop\"
 
 REM ------------ Copyright ------------
 REM -----------------------------------
