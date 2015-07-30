@@ -23,13 +23,13 @@ REM You should have received a copy of the GNU General Public License
 REM along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 REM Intro.
-echo Will OCR input files using Tesseract ...
+echo Will OCR input files using Tesseract...
 echo.
 
 REM If not file was input, go to the end of the batch.
 if not exist "%~1" (
 	echo No file was input.
-	echo Will now exit ...
+	echo Will now exit...
 	echo.
 	
 	REM Flee!
@@ -66,7 +66,7 @@ if "%lang%" neq "eng" (
 REM Loop through input files, and convert 'em all.
 for %%a in (%input%) do (
 	REM Inform.
-	echo Will OCR "%%~a" and output to "%cd:"=%\%%~na.txt" ...
+	echo Will OCR "%%~a" and output to "%cd:"=%\%%~na.txt"...
 	echo.
 	
 	REM Execute.
