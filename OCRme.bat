@@ -31,7 +31,7 @@ if not exist "%~1" (
 	echo No file was input.
 	echo Will now exit...
 	echo.
-	
+
 	REM Flee!
 	goto endmessage
 )
@@ -68,7 +68,7 @@ for %%a in (%input%) do (
 	REM Inform.
 	echo Will OCR "%%~a" and output to "%cd:"=%\%%~na.txt"...
 	echo.
-	
+
 	REM Execute.
 	%tesseractexe% "%%~a" %%~na -l %lang%
 	echo.
